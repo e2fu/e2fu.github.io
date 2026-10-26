@@ -9,3 +9,15 @@
     padding: 8px;
     border-radius: 999999px;
 }
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
