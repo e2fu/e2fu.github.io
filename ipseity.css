@@ -1,23 +1,73 @@
+/*this font took me like a solid 14 minutes to figure out lmfao <//3*/
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+/*
+.yusei-magic-regular {
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*/
+
 .bar {
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 600;
+    font-style: oblique;
+    background-color: #fed766;
+    color: #fe4a49;
     position: fixed;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 600px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90vw;
     padding: 8px;
-    border-radius: 999999px;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 .left {
-  text-align: left;
+    text-align: left;
+}
+  
+  .center {
+    text-align: center;
+}
+  
+  .right {
+    text-align: right;
 }
 
-.center {
-  text-align: center;
+h1 {
+    text-align: center;
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 600;
+    color: #009fb7;
 }
 
-.right {
-  text-align: right;
+p {
+    text-align: center;
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 400;
+    color: #1f1f1f;
+}
+
+.wah {
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 400;
+    color: #e6e6ea;
+}
+
+button {
+    color: #f6bd60;
+}
+
+hr {
+    margin: 50px;
+    visibility: hidden;
+}
+
+body {
+    background-color: #f4f4f8;
 }
